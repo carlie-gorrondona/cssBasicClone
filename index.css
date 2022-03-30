@@ -1,0 +1,58 @@
+.background {
+    background-image: url("2017-08-24-07-23-50.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.backgroundtwo {
+    height: 100vh;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.foreground {
+    background-color: rgba(0, 0, 0, 0.527);
+    height: 100vh;
+}
+
+.foregroundtext {
+    margin: 200px;
+    color: white;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(228, 198, 27);
+    font-variant-caps: all-small-caps;
+    font-size: 20pt;
+    font-weight: bold;
+    height: 80px;
+    width: 250px;
+    border-radius: 5pt;
+    border:rgb(228, 198, 27);
+    color: white;
+}
+
+.foregroundtext > h2 {
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.foregroundtext > h1 {
+    font-weight: bold;
+    font-size: 54pt;
+}
+
+.navbar-brand {
+    font-family: "Kaushan Script";
+}
+
+.serviceoptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
